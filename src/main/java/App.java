@@ -9,8 +9,7 @@ public class App {
     public static void main(String[] args) throws IOException {
 
         List<Students> studentList = new ArrayList<>();
-        String fileIn = "C:\\Users\\trang.nguyen18_onemo\\Desktop\\data.csv";
-        String fileOut = "Question4orderedList.csv";
+        String fileIn = "data.csv";
         String line = null;
 
         //Đọc danh sách sinh viên từ file csv
